@@ -1,5 +1,4 @@
 
-
 class Director:
     def __init__(self):
         self._builder = None
@@ -11,7 +10,7 @@ class Director:
         self._builder._build_part_c()
 
 
-class Builder():
+class Builder:
     def __init__(self):
         self.product = Product()
 
